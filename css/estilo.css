@@ -5,7 +5,7 @@
 }
 @font-face {
   font-family: "majormono";
-  src: url("./fonts/Raillinc.otf");
+  src: url("/fonts/Raillinc.otf");
 }
 @font-face {
   font-family: "means";
@@ -13,31 +13,31 @@
 }
 @font-face {
   font-family: "graphik";
-  src: url(./fonts/Graphik.woff2);
+  src: url(/fonts/Graphik.woff2);
 }
 @font-face {
   font-family: "chalk";
-  src: url(./fonts/Chalk-Regular.ttf);
+  src: url(/fonts/Chalk-Regular.ttf);
 }
 @font-face {
   font-family: "adega";
-  src: url(./fonts/ADegaSerifRegular.otf);
+  src: url(/fonts/ADegaSerifRegular.otf);
 }
 @font-face {
   font-family: "adegaitalic";
-  src: url(./fonts/ADegaSerifitalic.otf);
+  src: url(/fonts/ADegaSerifitalic.otf);
 }
 @font-face {
   font-family: "adegabold";
-  src: url(./fonts/ADegaSerifBold.otf);
+  src: url(/fonts/ADegaSerifBold.otf);
 }
 @font-face {
   font-family: "adegabolditalic";
-  src: url(./fonts/ADegaSerifBoldItalic.otf);
+  src: url(/fonts/ADegaSerifBoldItalic.otf);
 }
 @font-face {
   font-family: "helv";
-  src: url(./fonts/file.woff2);
+  src: url(/fonts/file.woff2);
 }
 * {
   margin: 0;
