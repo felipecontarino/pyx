@@ -1,0 +1,62 @@
+footer{
+    
+    width: 100%;
+    font-family: majormono;
+    
+    background-color:rgb(40, 40, 40);
+
+    .footerdiv{
+        display: flex;
+        justify-content:start;
+        flex-direction: column;
+        margin-right: 150px;
+        padding: 50px;
+        padding-left: 160px;
+        @include mobile {padding-left: 20px;}
+    }
+    
+    .logofooter{font-family: "adega";
+    color: #ffffff;
+.h23{font-size:larger;}}
+
+    .contactos{padding-top: 40px;
+        
+
+    .contacto{
+        text-decoration: none;
+        font-family: "adega";
+        color: white;
+       
+      
+        
+        .h22{
+            font-size: 350%;
+           
+           padding-top: 2px;
+        }
+    }
+}
+
+.derechos{
+    display: flex;
+    padding-top: 220px;
+    padding-right: 10px;
+    justify-content: flex-end;
+    align-items: center;
+    
+    .h33{font-family: "chalk";
+color: rgb(255, 255, 255);
+font-size: xx-large;}
+
+.pp{font-family: "graphik";
+    color: #ffffff;
+margin-left: 20px;
+font-size: small;}}
+
+}
+
+
+   
+    
+
+

@@ -1,0 +1,154 @@
+.section1 {
+    padding: 30px;
+    padding-top: 100px;
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    @include mobile {padding-top: 60px;}
+   
+    
+
+    
+
+   
+    
+    .bloque1{
+        display: flex;
+        padding: 40px;
+       width: 100%;
+       background-color:rgb(255, 255, 255);
+        border-radius: 19px;
+        justify-content: center;
+       
+    
+        @include tablet {
+       
+        flex-direction: column;
+        padding: 20px;
+        
+     }}
+        
+        
+
+
+        .leftside{
+            width: 60%;
+            padding: 40px;
+            margin-top: 8px;
+            margin-right: 80px;
+            
+            @include tablet{ width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+        @include mobile{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 0px;
+            padding: 0px;
+        }}
+            
+          
+            h1{font-family: "majormono";
+                font-size:250%;
+               
+
+                @include tablet{
+                    text-align: center;
+                    font-size: 200%;
+                }
+          }
+
+            h3{ font-family: "graphik";
+                font-size: large;
+                
+            
+                @include tablet{
+                    text-align: center;
+                }
+                @include mobile {font-size: larger;}
+            }
+
+            .cta-button {
+                display: inline-block;
+               
+                padding: 10px 20px;
+                font-size: 10px;
+                text-decoration: none;
+                background-color:  rgb(250, 249, 239);
+                color: #000000;
+                border-radius: 20px;
+                border-style: solid;
+                border-color: #000000;
+                border-width: 1px;
+                transition: background-color 0.3s ease;
+                margin-top: 50px;
+                margin-left: 260px;
+                font-family: "graphik";
+                box-shadow: 2px 2px 2px rgb(0, 0, 0);
+                text-align: center;
+
+                @include tablet {
+                    margin-left: 0px;
+                   width: 40%;
+                    display: flex;
+                    
+                    justify-content: center;
+                    display: none;
+                    
+                   
+                   
+                    
+                }
+
+                
+              }
+              
+              .cta-button:hover {
+                background-color: #C5DBF2;
+              }
+
+           
+
+           
+           
+
+            }
+            
+        
+
+
+        .rightside{ 
+            padding: 20px;
+            margin-right: 100px;
+            @include tablet{margin-right: 0px;
+            display: flex;
+        justify-content: center;}
+           
+         
+
+            .david{
+                width: 200px;
+               
+                 @include tablet{
+               
+
+                display: flex;
+                justify-content: center;
+               
+                
+            }
+        
+        @include mobile{
+           
+
+            margin-top: 50px;
+            margin-bottom: 40px;
+        }}
+        }
+    
+
+

@@ -1,0 +1,45 @@
+
+.navbar{
+    background-color:transparent;
+}
+.header{height: 70px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+
+   
+    }
+  
+          .navbar-brand{
+                font-size:xx-large;
+                padding-left: 25px;
+               
+                justify-items: center;
+                font-family: "chalk";
+                @include mobile {font-size: x-large;}
+           
+                a{text-decoration: none;
+                color: black;
+                justify-content:center;
+                
+                }
+            
+          }
+
+               
+
+
+.navbar-brand:hover{
+    transform: scale(1.1);
+}
+
+.logos{margin-right: 60px;
+    .logoh{padding: 5px;}
+    @include mobile{ margin-right: 20px;}
+}
+.logoheader{width: 15px;
+}
+.logoheader2{ width: 16px;}
+
+.logoheader:hover{transform: scale(1.1);}
+.logoheader2:hover{transform: scale(1.1);}

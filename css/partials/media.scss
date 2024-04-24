@@ -1,0 +1,23 @@
+@mixin midway {
+  @media screen and (max-width: 1220px) {
+    @content;
+  }
+}
+
+
+@mixin tablet {
+    @media screen and (max-width: 991px) {
+      @content;
+    }
+  }
+
+    @mixin mobile {
+        @media screen and (max-width: 610px) {
+            @content;
+        }
+    
+      
+            
+        }   
+        
+

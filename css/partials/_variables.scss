@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "letra";
+    src: url("/fonts/letra.ttf");
+}
+@font-face {
+    font-family: "majormono";
+    src: url("/fonts/Raillinc.otf");
+}
+
+
+    @font-face {
+        font-family: "means";
+        src: url(/fonts/Means-Regular-Web.c14e83d3.1.woff2)
+    }
+
+    @font-face {
+        font-family: "graphik";
+        src: url(/fonts/Graphik-Regular-Web.11b60cc4.1.woff2);
+    }
+
+   
+@font-face {
+    font-family: "chalk";
+    src: url(/fonts/Chalk-Regular.ttf);
+}
+
+@font-face {
+    font-family: "adega";
+    src: url(/fonts/ADega\ Serif\ Regular.otf);
+}
+
+@font-face {
+    font-family: "adegaitalic";
+    src: url(/fonts/ADega\ Serif\ italic.otf);
+}
+
+@font-face {
+    font-family: "adegabold";
+    src: url(/fonts/ADega\ Serif\ Bold.otf);
+}
+
+@font-face {
+    font-family: "adegabolditalic";
+    src: url(/fonts/ADega\ Serif\ Bold\ Italic.otf);
+}
+
+
+@font-face {
+    font-family: "helv";
+    src: url(/fonts/file.woff2);
+}
+$fontmono: "majormono";
+$colorhyf: aliceblue;

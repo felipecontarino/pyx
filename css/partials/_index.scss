@@ -1,0 +1,34 @@
+.container{
+    width: 100%;
+    max-width: 100%;
+   
+    background-color:#ffffff}
+
+    
+      
+            .wsp {
+                position: fixed;
+                bottom: 20px; // Ajusta la distancia desde la parte inferior
+                right: 38px; // Ajusta la distancia desde la derecha
+                display: flex;
+                align-items: center;
+                text-decoration: none;
+                background-color: #ffffff; // Color de WhatsApp
+                color: #fff;
+                padding: 8px;
+                border-radius: 50%; // Hace el botón más redondo
+                transition: background-color 0.3s ease, transform 0.3s ease;
+            
+                .btnwsp {
+                    width: 20px; // Ajusta el tamaño del ícono
+                    
+                }
+            
+                &:hover {
+                    background-color: #b2deea; // Color de hover
+                   
+                }
+            }
+
+            
+        
