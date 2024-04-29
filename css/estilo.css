@@ -5,15 +5,7 @@
 }
 @font-face {
   font-family: "majormono";
-  src: url("/fonts/Raillinc.otf");
-}
-@font-face {
-  font-family: "means";
-  src: url(/fonts/Means-Regular-Web.c14e83d3.1.woff2);
-}
-@font-face {
-  font-family: "graphik";
-  src: url(/fonts/Graphik.woff2);
+  src: url(/fonts/Raillinc.otf);
 }
 @font-face {
   font-family: "chalk";
@@ -21,19 +13,19 @@
 }
 @font-face {
   font-family: "adega";
-  src: url(/fonts/ADegaSerifRegular.otf);
+  src: url(/fonts/adegaserifregular.otf);
 }
 @font-face {
   font-family: "adegaitalic";
-  src: url(/fonts/ADegaSerifitalic.otf);
+  src: url(/fonts/adegaserifitalic.otf);
 }
 @font-face {
   font-family: "adegabold";
-  src: url(/fonts/ADegaSerifBold.otf);
+  src: url(/fonts/adegaserifbold.otf);
 }
 @font-face {
   font-family: "adegabolditalic";
-  src: url(/fonts/ADegaSerifBoldItalic.otf);
+  src: url(/fonts/adegaserifbolditalic.otf);
 }
 @font-face {
   font-family: "helv";
@@ -197,7 +189,7 @@
   }
 }
 .section1 h3 {
-  font-family: "graphik";
+  font-family: "letra";
   font-size: medium;
   padding-right: 115px;
 }
@@ -332,13 +324,13 @@
   padding-bottom: 20px;
 }
 .section2 .ben2 .p1 {
-  font-family: "graphik";
+  font-family: "letra";
   display: flex;
   justify-content: center;
 }
 .section2 .ben2 .p2 {
   font-size: small;
-  font-family: "graphik";
+  font-family: "letra";
   display: flex;
   justify-content: center;
 }
@@ -515,7 +507,7 @@
   }
 }
 .section4 .texto4 .h6 {
-  font-family: "graphik";
+  font-family: "letra";
 }
 @media screen and (max-width: 610px) {
   .section4 .texto4 .h6 {
