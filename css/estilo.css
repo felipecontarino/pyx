@@ -29,7 +29,7 @@
 }
 @font-face {
   font-family: "graphik";
-  src: url(../fonts/graphik.woff2);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 * {
   margin: 0;
@@ -213,7 +213,7 @@
   transition: background-color 0.3s ease;
   margin-top: 50px;
   margin-left: 260px;
-  font-family: "graphik";
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   box-shadow: 2px 2px 2px rgb(0, 0, 0);
   text-align: center;
 }
@@ -556,7 +556,7 @@
   margin-top: 50px;
   margin-left: 200px;
   text-align: center;
-  font-family: "graphik";
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 @media screen and (max-width: 991px) {
   .section4 .texto4 .cta-button {
