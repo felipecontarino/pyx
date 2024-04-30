@@ -200,7 +200,7 @@
   padding: 10px 20px;
   font-size: 10px;
   text-decoration: none;
-  background-color: rgb(250, 249, 239);
+  background-color: rgb(231, 225, 164);
   color: #000000;
   border-radius: 20px;
   border-style: solid;
@@ -216,10 +216,10 @@
 @media screen and (max-width: 991px) {
   .section1 .cta-button {
     margin-left: 0px;
-    width: 40%;
+    margin: auto;
+    margin-top: 40px;
     display: flex;
     justify-content: center;
-    display: none;
   }
 }
 .section1 .cta-button:hover {
@@ -297,7 +297,7 @@
   margin-right: 50px;
 }
 .section2 .state .stateimg {
-  width: 90%;
+  width: 50%;
   border-radius: 500%;
 }
 @media screen and (max-width: 610px) {
@@ -318,6 +318,12 @@
   font-family: "adegabold";
   font-size: 350%;
   padding-bottom: 20px;
+}
+@media screen and (max-width: 610px) {
+  .section2 .ben2 .h4section2 {
+    font-size: 250%;
+    text-align: center;
+  }
 }
 .section2 .ben2 .p1 {
   font-family: "letra";
@@ -342,6 +348,7 @@
     max-width: 100%;
     padding-left: 0px;
     padding-right: 0px;
+    text-align: center;
   }
 }
 
@@ -456,6 +463,7 @@
   padding-bottom: 50px;
   display: flex;
   justify-content: space-between;
+  background-image: url(/img/Proyecto-sin-título-3.gif);
 }
 @media screen and (max-width: 991px) {
   .section4 {
@@ -531,6 +539,7 @@
 @media screen and (max-width: 610px) {
   .section4 .texto4 .titlefeatures {
     padding-top: 0px;
+    font-size: 250%;
     text-align: center;
   }
 }
@@ -541,7 +550,7 @@
   font-size: 10px;
   text-decoration: none;
   justify-content: center;
-  background-color: #f2f1e6;
+  background-color: rgb(231, 225, 164);
   color: #000000;
   border-radius: 50px;
   border-style: solid;
@@ -568,16 +577,6 @@
 }
 .section4 .texto4 .cta-button:hover {
   background-color: #C5DBF2;
-}
-.section4 .video-background1 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 
 .reynold {
@@ -744,16 +743,7 @@ footer {
   font-family: "majormono";
   position: relative;
   width: 100%;
-}
-footer .video-background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  -o-object-fit: cover;
-     object-fit: cover;
+  background-image: url(/img/fondoblack.gif);
 }
 footer .footerdiv {
   z-index: 1;

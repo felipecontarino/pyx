@@ -84,7 +84,7 @@
                 padding: 10px 20px;
                 font-size: 10px;
                 text-decoration: none;
-                background-color:  rgb(250, 249, 239);
+                background-color:  rgb(231, 225, 164);
                 color: #000000;
                 border-radius: 20px;
                 border-style: solid;
@@ -97,18 +97,11 @@
                 box-shadow: 2px 2px 2px rgb(0, 0, 0);
                 text-align: center;
 
-                @include tablet {
-                    margin-left: 0px;
-                   width: 40%;
+                @include tablet {margin-left: 0px;
+                   margin: auto;
+                   margin-top: 40px;
                     display: flex;
-                    
-                    justify-content: center;
-                    display: none;
-                    
-                   
-                   
-                    
-                }
+                   justify-content: center;}
 
                 
               }
