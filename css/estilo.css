@@ -463,7 +463,7 @@
   padding-bottom: 50px;
   display: flex;
   justify-content: space-between;
-  background-image: url(/img/Proyecto-sin-título-3.gif);
+  background-image: url(../img/Proyecto-sin-título-3.gif);
 }
 @media screen and (max-width: 991px) {
   .section4 {
@@ -743,7 +743,7 @@ footer {
   font-family: "majormono";
   position: relative;
   width: 100%;
-  background-image: url(/img/fondoblack.gif);
+  background-image: url(../img/fondoblack.gif);
 }
 footer .footerdiv {
   z-index: 1;
@@ -810,7 +810,7 @@ footer .derechos .pp {
   padding: 10px 15px;
   font-size: 10px;
   text-decoration: none;
-  background-color: rgb(250, 249, 239);
+  background-color: rgb(231, 225, 164);
   border-style: solid;
   border-color: #000000;
   border-width: 1px;
