@@ -246,7 +246,7 @@
   }
 }
 .rightside .david {
-  width: 250px;
+  width: 190px;
 }
 @media screen and (max-width: 991px) {
   .rightside .david {
@@ -282,8 +282,8 @@
 }
 @media screen and (max-width: 610px) {
   .ben1 {
-    margin-top: 80px;
-    margin-bottom: 190px;
+    margin-top: 20px;
+    margin-bottom: 100px;
   }
 }
 
@@ -373,6 +373,11 @@
   display: flex;
   justify-content: center;
 }
+@media screen and (max-width: 610px) {
+  .section2 .ben2 .p1 {
+    padding-right: 10px;
+  }
+}
 .section2 .ben2 .p2 {
   font-size: larger;
   font-family: "letra";
@@ -381,16 +386,21 @@
   font-weight: 500;
   line-height: 1.2;
 }
+@media screen and (max-width: 610px) {
+  .section2 .ben2 .p2 {
+    padding-right: 10px;
+  }
+}
 @media screen and (max-width: 991px) {
-  .section2 .ben2 {
+  .section2 {
     padding-left: 30px;
     padding-right: 30px;
   }
 }
 @media screen and (max-width: 610px) {
-  .section2 .ben2 {
-    padding-left: 10px;
-    padding-right: 80px;
+  .section2 {
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 
@@ -552,6 +562,8 @@
 
 .reynold {
   background-color: rgb(255, 255, 255);
+  margin-top: 120px;
+  margin-bottom: 300px;
 }
 
 .section5 {
@@ -674,8 +686,8 @@
 
 .section6 {
   padding: 50px;
-  padding-bottom: 0px;
-  height: 600px;
+  margin-top: 100px;
+  background-image: url(../img/ver.png);
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -683,25 +695,32 @@
 }
 @media screen and (max-width: 610px) {
   .section6 {
-    margin-top: 0px;
+    margin-top: 10px;
     padding: 30px;
   }
 }
 .section6 .actionb {
   justify-content: center;
 }
+@media screen and (max-width: 610px) {
+  .section6 .actionb {
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+}
 .section6 .actionb .action {
   font-family: "adega";
   font-size: 350%;
   padding: 100px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 @media screen and (max-width: 610px) {
   .section6 .actionb .action {
     margin-bottom: 10px;
-    text-align: center;
-    font-size: 250%;
+    text-align: start;
+    font-size: 280%;
     padding: 40px;
+    padding-left: 10px;
   }
 }
 .section6 .actionb .action .italic {
@@ -726,7 +745,8 @@ footer .footerdiv {
 }
 @media screen and (max-width: 610px) {
   footer .footerdiv {
-    padding-left: 20px;
+    padding-left: 30px;
+    margin-right: 100px;
   }
 }
 footer .logofooter {

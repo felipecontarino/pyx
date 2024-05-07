@@ -21,7 +21,8 @@ footer{
         
         
         
-        @include mobile {padding-left: 20px;}
+        @include mobile {padding-left: 30px;
+        margin-right: 100px;}
     }
     
     .logofooter{font-family: "adega";

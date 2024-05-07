@@ -1,8 +1,8 @@
 
 .ben1{ width: 100%;
 margin-top: 160px;
-@include mobile{ margin-top: 80px;
-margin-bottom: 190px;}}
+@include mobile{ margin-top: 20px;
+margin-bottom: 100px;}}
 .imagensection2{
     width: 100%;
    
@@ -96,16 +96,18 @@ justify-content: flex-start;}
         font-size: larger;
         font-weight: 500;
     line-height: 1.2;
-    
-  
-display: flex;
-justify-content: center;}
+   display: flex;
+justify-content: center;
+
+@include mobile {padding-right: 10px;}}
+
     .p2{ font-size: larger;
     font-family: "letra";
     display: flex;
 justify-content: center;
 font-weight: 500;
     line-height: 1.2;
+    @include mobile {padding-right: 10px;}}
    
    
 }
@@ -121,11 +123,11 @@ font-weight: 500;
     @include mobile {
         
          
-         padding-left: 10px;
-         padding-right: 80px;
+         padding-left: 30px;
+         padding-right: 30px;
          
          
     }
-}}
+}
 
 

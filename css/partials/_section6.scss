@@ -1,8 +1,10 @@
 .section6{
 padding: 50px;
-padding-bottom: 0px;
 
-height: 600px;
+margin-top: 100px;
+
+background-image: url(../img/ver.png);
+
 
 
 
@@ -10,24 +12,27 @@ height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    @include mobile {margin-top: 0px;
+    @include mobile {margin-top: 10px;
     padding: 30px;}
     
  
     .actionb{ 
    
    justify-content: center;
+   @include mobile {margin-top: 100px;
+margin-bottom: 50px;}
 
     .action{
         font-family: "adega";
         font-size: 350%;
         padding: 100px;
         
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
          @include mobile {margin-bottom: 10px;
-            text-align: center;
-        font-size: 250%;
+            text-align:start;
+        font-size: 280%;
         padding: 40px;
+        padding-left: 10px;
    }
    .italic {font-family: "adegaitalic";
 padding-left: 0px;}
