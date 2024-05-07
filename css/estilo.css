@@ -186,8 +186,9 @@
 }
 .section1 h3 {
   font-family: "letra";
-  font-size: medium;
+  font-size: larger;
   padding-right: 115px;
+  animation: scale-up-center 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 @media screen and (max-width: 991px) {
   .section1 h3 {
@@ -195,12 +196,17 @@
     padding-right: 0px;
   }
 }
+@media screen and (max-width: 610px) {
+  .section1 h3 {
+    font-size: large;
+  }
+}
 .section1 .cta-button {
   display: inline-block;
   padding: 10px 20px;
   font-size: 10px;
   text-decoration: none;
-  background-color: rgb(231, 225, 164);
+  background-color: rgb(218, 208, 160);
   color: #000000;
   border-radius: 20px;
   border-style: solid;
@@ -234,6 +240,7 @@
 @media screen and (max-width: 991px) {
   .rightside {
     margin-right: 0px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
   }
@@ -253,10 +260,31 @@
     margin-bottom: 40px;
   }
 }
-
+@keyframes slide-right {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100px);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 .ben1 {
   width: 100%;
-  margin-top: 100px;
+  margin-top: 160px;
+}
+@media screen and (max-width: 610px) {
+  .ben1 {
+    margin-top: 80px;
+    margin-bottom: 190px;
+  }
 }
 
 .imagensection2 {
@@ -267,7 +295,7 @@
 
 .section2 {
   width: 100%;
-  margin-top: 100px;
+  margin-top: 200px;
   margin-bottom: 100px;
   background-color: rgb(255, 255, 255);
   padding: 70px;
@@ -275,18 +303,14 @@
   justify-content: space-between;
   align-items: center;
 }
-@media screen and (max-width: 991px) {
-  .section2 {
-    height: auto;
-  }
-}
 @media screen and (max-width: 610px) {
   .section2 {
     padding: 30px;
     margin-top: 90px;
     padding-top: 0px;
     margin-bottom: 0px;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
   }
 }
 .section2 .state {
@@ -294,67 +318,80 @@
   display: flex;
   justify-content: center;
   width: 50%;
-  margin-right: 50px;
 }
-.section2 .state .stateimg {
-  width: 50%;
-  border-radius: 500%;
+@media screen and (max-width: 991px) {
+  .section2 .state {
+    padding-right: 15px;
+  }
 }
 @media screen and (max-width: 610px) {
   .section2 .state {
-    display: none;
+    order: 2;
+    width: 100%;
+    margin-top: 40px;
   }
 }
+.section2 .state .stateimg {
+  width: 70%;
+  border-radius: 5%;
+}
 .section2 .ben2 {
-  padding-left: 40px;
-  padding-right: 20px;
+  padding-left: 0px;
+  padding-right: 100px;
   width: 50%;
   display: flex;
   flex-direction: column;
   float: right;
   justify-content: flex-end;
 }
+@media screen and (max-width: 610px) {
+  .section2 .ben2 {
+    width: 100%;
+    justify-content: flex-start;
+  }
+}
 .section2 .ben2 .h4section2 {
   font-family: "adegabold";
   font-size: 350%;
   padding-bottom: 20px;
 }
+@media screen and (max-width: 991px) {
+  .section2 .ben2 .h4section2 {
+    font-size: 250%;
+  }
+}
 @media screen and (max-width: 610px) {
   .section2 .ben2 .h4section2 {
     font-size: 250%;
-    text-align: center;
   }
 }
 .section2 .ben2 .p1 {
   font-family: "letra";
+  font-size: larger;
+  font-weight: 500;
+  line-height: 1.2;
   display: flex;
   justify-content: center;
 }
 .section2 .ben2 .p2 {
-  font-size: small;
+  font-size: larger;
   font-family: "letra";
   display: flex;
   justify-content: center;
+  font-weight: 500;
+  line-height: 1.2;
 }
 @media screen and (max-width: 991px) {
   .section2 .ben2 {
     padding-left: 30px;
     padding-right: 30px;
-    width: auto;
   }
 }
 @media screen and (max-width: 610px) {
   .section2 .ben2 {
-    max-width: 100%;
-    padding-left: 0px;
-    padding-right: 0px;
-    text-align: center;
+    padding-left: 10px;
+    padding-right: 80px;
   }
-}
-
-.reyes {
-  background-color: rgb(255, 255, 255);
-  display: none;
 }
 
 .section3 {
@@ -362,108 +399,33 @@
   display: flex;
   border-radius: 9px;
   padding-bottom: 80px;
-  padding: 30px;
 }
-.section3 h4 {
-  font-family: "adegabold";
-  text-align: center;
-  font-size: 170%;
-}
-.section3 .beneficios {
-  text-align: center;
-  padding-inline: 20px;
-}
-.section3 .b1 {
+.section3 .caracteristicas {
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 30px;
-  font-family: "graphik";
-  width: 33%;
-  border-width: 1px;
-  border-radius: 69px;
-  margin-right: 30px;
-}
-@media screen and (max-width: 610px) {
-  .section3 .b1 {
-    width: 100%;
-    padding: 20px;
-    margin-top: 25px;
-  }
-}
-.section3 .b1 .b1icon {
-  width: 70px;
-  padding-bottom: 20px;
-}
-.section3 .b2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 30px;
-  font-family: "graphik";
-  width: 33%;
-  border-width: 1px;
-  border-radius: 69px;
-  margin-right: 30px;
-}
-@media screen and (max-width: 610px) {
-  .section3 .b2 {
-    width: 100%;
-    padding: 20px;
-    margin-top: 25px;
-  }
-}
-.section3 .b2 .b2icon {
-  width: 70px;
-  padding-bottom: 20px;
-}
-.section3 .b3 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 30px;
-  font-family: "graphik";
-  width: 33%;
-  border-width: 1px;
-  border-radius: 69px;
-  margin-right: 30px;
-}
-@media screen and (max-width: 610px) {
-  .section3 .b3 {
-    width: 100%;
-    padding: 20px;
-    margin-top: 25px;
-  }
-}
-.section3 .b3 .b3icon {
-  width: 70px;
-  padding-bottom: 20px;
-}
-@media screen and (max-width: 610px) {
-  .section3 {
-    flex-direction: column;
-    padding: 10px;
-    padding-top: 30px;
-  }
+  justify-content: center;
 }
 
 .cuatro {
   position: relative;
   width: 100%;
-  margin-bottom: 100px;
+}
+@media screen and (max-width: 610px) {
+  .cuatro {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
 }
 
 .section4 {
   width: 100%;
   position: relative;
-  z-index: 1;
   justify-content: center;
   padding: 50px;
   padding-top: 50px;
   padding-bottom: 50px;
   display: flex;
   justify-content: space-between;
-  background-image: url(../img/fondowhite.gif);
 }
 @media screen and (max-width: 991px) {
   .section4 {
@@ -510,16 +472,24 @@
     justify-content: center;
   }
 }
+@media screen and (max-width: 610px) {
+  .section4 .texto4 {
+    padding: 10px;
+    margin-top: 10px;
+  }
+}
 .section4 .texto4 .h6 {
   font-family: "letra";
+  font-size: larger;
 }
 @media screen and (max-width: 610px) {
   .section4 .texto4 .h6 {
     justify-content: center;
     padding: 0px;
-    padding-top: 0px;
+    padding-top: 20px;
+    padding-left: 60px;
     margin-bottom: 50px;
-    text-align: center;
+    text-align: end;
   }
 }
 .section4 .texto4 .titlefeatures {
@@ -540,7 +510,8 @@
   .section4 .texto4 .titlefeatures {
     padding-top: 0px;
     font-size: 250%;
-    text-align: center;
+    padding-left: 60px;
+    text-align: end;
   }
 }
 .section4 .texto4 .cta-button {
@@ -550,7 +521,7 @@
   font-size: 10px;
   text-decoration: none;
   justify-content: center;
-  background-color: rgb(231, 225, 164);
+  background-color: rgb(218, 208, 160);
   color: #000000;
   border-radius: 50px;
   border-style: solid;
@@ -650,7 +621,7 @@
   display: block;
   margin: auto;
   padding-bottom: 30px;
-  width: 75px;
+  width: 185px;
 }
 .section5 .b2 h4 {
   font-family: "adegabold";
@@ -704,8 +675,7 @@
 .section6 {
   padding: 50px;
   padding-bottom: 0px;
-  margin-top: 150px;
-  margin-bottom: 150px;
+  height: 600px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -723,8 +693,8 @@
 .section6 .actionb .action {
   font-family: "adega";
   font-size: 350%;
-  padding: 70px;
-  margin-bottom: 30px;
+  padding: 100px;
+  color: rgb(0, 0, 0);
 }
 @media screen and (max-width: 610px) {
   .section6 .actionb .action {
@@ -743,7 +713,7 @@ footer {
   font-family: "majormono";
   position: relative;
   width: 100%;
-  background-image: url(../img/fondoblack.gif);
+  background-image: url(../img/ver.png);
 }
 footer .footerdiv {
   z-index: 1;
@@ -802,7 +772,7 @@ footer .derechos .pp {
   justify-content: flex-start;
   padding: 30px;
   padding-left: 1px;
-  padding-top: 20px;
+  padding-top: 60px;
   font-family: "graphik";
 }
 .boton .cta-button2 {
@@ -810,7 +780,7 @@ footer .derechos .pp {
   padding: 10px 15px;
   font-size: 10px;
   text-decoration: none;
-  background-color: rgb(231, 225, 164);
+  background-color: rgb(230, 228, 207);
   border-style: solid;
   border-color: #000000;
   border-width: 1px;
