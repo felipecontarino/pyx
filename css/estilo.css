@@ -297,6 +297,7 @@
   width: 100%;
   margin-top: 200px;
   margin-bottom: 100px;
+  background-image: url(../img/ve2.png);
   background-color: rgb(255, 255, 255);
   padding: 70px;
   display: flex;
@@ -305,8 +306,8 @@
 }
 @media screen and (max-width: 610px) {
   .section2 {
-    padding: 30px;
-    margin-top: 90px;
+    padding: 20px;
+    margin-top: 20px;
     padding-top: 0px;
     margin-bottom: 0px;
     display: flex;
@@ -328,7 +329,8 @@
   .section2 .state {
     order: 2;
     width: 100%;
-    margin-top: 40px;
+    margin-top: 60px;
+    padding-bottom: 30px;
   }
 }
 .section2 .state .stateimg {
@@ -347,7 +349,9 @@
 @media screen and (max-width: 610px) {
   .section2 .ben2 {
     width: 100%;
-    justify-content: flex-start;
+    justify-content: flex-end;
+    padding-right: 20px;
+    padding-top: 60px;
   }
 }
 .section2 .ben2 .h4section2 {
@@ -409,11 +413,13 @@
   display: flex;
   border-radius: 9px;
   padding-bottom: 80px;
+  padding-top: 80px;
 }
 .section3 .caracteristicas {
   width: 100%;
   display: flex;
   justify-content: center;
+  border-radius: 1%;
 }
 
 .cuatro {
@@ -422,7 +428,7 @@
 }
 @media screen and (max-width: 610px) {
   .cuatro {
-    margin-top: 20px;
+    margin-top: 90px;
     margin-bottom: 40px;
   }
 }
@@ -562,8 +568,8 @@
 
 .reynold {
   background-color: rgb(255, 255, 255);
-  margin-top: 120px;
-  margin-bottom: 300px;
+  margin-top: 90px;
+  margin-bottom: 250px;
 }
 
 .section5 {
@@ -686,7 +692,6 @@
 
 .section6 {
   padding: 50px;
-  margin-top: 100px;
   background-image: url(../img/ver.png);
   width: 100%;
   display: flex;
@@ -701,6 +706,7 @@
 }
 .section6 .actionb {
   justify-content: center;
+  margin-top: 150px;
 }
 @media screen and (max-width: 610px) {
   .section6 .actionb {
@@ -765,8 +771,13 @@ footer .contactos .contacto {
   color: white;
 }
 footer .contactos .contacto .h22 {
-  font-size: 350%;
-  padding-top: 2px;
+  font-size: 550%;
+  padding-top: 20px;
+}
+@media screen and (max-width: 610px) {
+  footer .contactos .contacto .h22 {
+    font-size: 350%;
+  }
 }
 footer .derechos {
   display: flex;
@@ -774,6 +785,14 @@ footer .derechos {
   padding-right: 10px;
   justify-content: flex-end;
   align-items: end;
+}
+@media screen and (max-width: 610px) {
+  footer .derechos {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 80px;
+  }
 }
 footer .derechos .h33 {
   font-family: "chalk";
@@ -785,6 +804,11 @@ footer .derechos .pp {
   color: #ffffff;
   margin-left: 20px;
   font-size: small;
+}
+@media screen and (max-width: 610px) {
+  footer .derechos .pp {
+    margin-left: 0px;
+  }
 }
 
 .boton {

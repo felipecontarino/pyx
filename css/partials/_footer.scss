@@ -41,9 +41,11 @@ footer{
       
         
         .h22{
-            font-size: 350%;
+            font-size: 550%;
            
-           padding-top: 2px;
+           padding-top: 20px;
+
+           @include mobile {font-size: 350%;}
         }
     }
 }
@@ -55,6 +57,10 @@ footer{
     padding-right: 10px;
     justify-content: flex-end;
     align-items:end;
+    @include mobile{flex-direction: column;
+    justify-content: flex-start;
+align-items: flex-start;
+padding-top: 80px;}
     
     .h33{font-family: "chalk";
 color: rgb(255, 255, 255);
@@ -63,7 +69,8 @@ font-size: xx-large;}
 .pp{font-family: "graphik";
     color: #ffffff;
 margin-left: 20px;
-font-size: small;}}
+font-size: small;
+@include mobile{ margin-left: 0px;}}}
 
 }
 
