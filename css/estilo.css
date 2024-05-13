@@ -308,18 +308,18 @@
 }
 .ben1 {
   width: 100%;
-  margin-top: 160px;
-}
-@media screen and (max-width: 610px) {
-  .ben1 {
-    margin-top: 20px;
-  }
+  background-image: url(./img/ve2.png);
 }
 
 .imagensection2 {
   width: 100%;
   display: flex;
   justify-content: flex-start;
+}
+@media screen and (max-width: 610px) {
+  .imagensection2 {
+    padding-bottom: 0px;
+  }
 }
 
 .section2 {
@@ -369,11 +369,17 @@
     width: 100%;
     margin-top: 60px;
     padding-bottom: 30px;
+    padding-right: 0px;
   }
 }
 .section2 .state .stateimg {
   width: 70%;
   border-radius: 5%;
+}
+@media screen and (max-width: 610px) {
+  .section2 .state .stateimg {
+    width: 100%;
+  }
 }
 .section2 .ben2 {
   padding-left: 0px;
@@ -424,7 +430,7 @@
   }
 }
 .section2 .ben2 .p2 {
-  font-size: larger;
+  font-size: medium;
   font-family: "letra";
   display: flex;
   justify-content: center;
@@ -440,6 +446,18 @@
   .section2 {
     padding-left: 30px;
     padding-right: 30px;
+  }
+}
+
+.reyes {
+  background-image: url(/img/ve2.png);
+  margin-top: 120px;
+  padding-bottom: 450px;
+}
+@media screen and (max-width: 610px) {
+  .reyes {
+    padding-bottom: 200px;
+    margin-top: 50px;
   }
 }
 
@@ -509,6 +527,11 @@
 .section4 .imagen4 .vrdoc {
   width: 60%;
   border-radius: 15px;
+}
+@media screen and (max-width: 610px) {
+  .section4 .imagen4 .vrdoc {
+    width: 100%;
+  }
 }
 .section4 .texto4 {
   padding: 60px;
@@ -606,6 +629,7 @@
   background-color: rgb(255, 255, 255);
   margin-top: 90px;
   margin-bottom: 250px;
+  display: none;
 }
 
 .section5 {
@@ -805,6 +829,8 @@ footer .contactos .contacto {
   text-decoration: none;
   font-family: "adega";
   color: white;
+  width: 200px;
+  display: block;
 }
 footer .contactos .contacto .h22 {
   font-size: 550%;

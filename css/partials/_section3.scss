@@ -1,5 +1,9 @@
 
-.reyes{
+.reyes{background-image: url(/img/ve2.png);
+  margin-top:120px;
+  padding-bottom: 450px;
+  @include mobile {padding-bottom: 200px;
+  margin-top: 50px;}
    
   
 }
