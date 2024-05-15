@@ -60,6 +60,8 @@
           
             h1{font-family: "majormono";
                 font-size:280%;
+               
+                
                 @include tablet{
                     padding-right: 80px;
                     font-size: 280%;
@@ -74,8 +76,7 @@
             h3{ font-family: "letra";
                 font-size: larger;
                 padding-right: 115px;
-                -webkit-animation: scale-up-center 1.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-                animation: scale-up-center 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+               
                             
                 @include tablet{
                    
@@ -107,6 +108,7 @@
                 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                 box-shadow: 2px 2px 2px rgb(0, 0, 0);
                 text-align: center;
+                transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
                 
 
                 @include tablet {margin-left: 0px;
@@ -114,13 +116,16 @@
                    margin-top: 20px;
                    padding: 5px 20px;
                     display: flex;
-                   justify-content: center;}
+                   justify-content: center;
+                }
 
                 
               }
               
               .cta-button:hover {
                 background-color: #C5DBF2;
+                box-shadow: 3px 5px 2px rgb(0, 0, 0);
+                transform: scale(1.1);
               }
 
            }
@@ -153,7 +158,9 @@
         
                .david{
                 width: 190px;
-                
+              
+            -webkit-animation: vibrate-1 4s linear infinite both;
+	        animation: vibrate-1 4s linear infinite both;
                 
                 @include tablet{
                
@@ -171,6 +178,4 @@
     
 
 
-        @-webkit-keyframes slide-right{0%{-webkit-transform:translateX(0);transform:translateX(0)}100%{-webkit-transform:translateX(100px);transform:translateX(100px)}}@keyframes slide-right{0%{-webkit-transform:translateX(0);transform:translateX(0)}100%{-webkit-transform:translateX(100px);transform:translateX(100px)}}
-
-        @-webkit-keyframes scale-up-center{0%{-webkit-transform:scale(.5);transform:scale(.5)}100%{-webkit-transform:scale(1);transform:scale(1)}}@keyframes scale-up-center{0%{-webkit-transform:scale(.5);transform:scale(.5)}100%{-webkit-transform:scale(1);transform:scale(1)}}
+             @-webkit-keyframes vibrate-1{0%{-webkit-transform:translate(0);transform:translate(0)}20%{-webkit-transform:translate(-2px,2px);transform:translate(-2px,2px)}40%{-webkit-transform:translate(-2px,-2px);transform:translate(-2px,-2px)}60%{-webkit-transform:translate(2px,2px);transform:translate(2px,2px)}80%{-webkit-transform:translate(2px,-2px);transform:translate(2px,-2px)}100%{-webkit-transform:translate(0);transform:translate(0)}}@keyframes vibrate-1{0%{-webkit-transform:translate(0);transform:translate(0)}20%{-webkit-transform:translate(-2px,2px);transform:translate(-2px,2px)}40%{-webkit-transform:translate(-2px,-2px);transform:translate(-2px,-2px)}60%{-webkit-transform:translate(2px,2px);transform:translate(2px,2px)}80%{-webkit-transform:translate(2px,-2px);transform:translate(2px,-2px)}100%{-webkit-transform:translate(0);transform:translate(0)}}

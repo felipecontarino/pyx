@@ -39,17 +39,28 @@ footer{
         color: white;
         width: 200px;
         display: block;
+        
+      
       
        
       
         
         .h22{
             font-size: 550%;
-           
            padding-top: 20px;
-
+           text-decoration: none;
+           position: relative;
+           transition: transform 0.3s, text-decoration 0.3s;
            @include mobile {font-size: 350%;}
         }
+      
+
+          .h22:hover {
+            transform: scale(1.1);
+             
+             
+             
+         }
     }
 }
 

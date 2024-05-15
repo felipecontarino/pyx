@@ -16,6 +16,7 @@
                
                 justify-items: center;
                 font-family: "chalk";
+                transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
                 @include mobile {font-size: x-large;}
            
                 a{text-decoration: none;
@@ -37,9 +38,10 @@
     .logoh{padding: 5px;}
     @include mobile{ margin-right: 20px;}
 }
-.logoheader{width: 15px;
+.logoheader{width: 15px;transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
 }
-.logoheader2{ width: 16px;}
+.logoheader2{ width: 16px;transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;}
 
 .logoheader:hover{transform: scale(1.1);}
 .logoheader2:hover{transform: scale(1.1);}
+

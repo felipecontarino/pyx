@@ -1,9 +1,48 @@
 
-.reyes{background-image: url(/img/ve2.png);
+.botoncitocont{display: flex;
+  justify-content: center;}
+
+.botoncito {
+  
+  display: none;
+  @include mobile {
+  
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 10px;
+  text-decoration: none;
+  background-color:  rgb(218, 208, 160);
+  color: #000000;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  transition: background-color 0.3s ease;
+  margin: auto;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  box-shadow: 2px 2px 2px rgb(0, 0, 0);
+  text-align: center;
+  margin-bottom: 100px;
+  
+
+ 
+
+  
+}
+
+.botoncito:hover {
+  background-color: #C5DBF2;
+}
+}
+
+
+
+
+.reyes{background-image: url(../img/ve2.png);
   margin-top:120px;
-  padding-bottom: 450px;
-  @include mobile {padding-bottom: 200px;
-  margin-top: 50px;}
+  padding-bottom: 0px;
+  @include mobile {
+  margin-top: 20px;}
    
   
 }
