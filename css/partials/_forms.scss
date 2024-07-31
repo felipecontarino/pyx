@@ -1,0 +1,65 @@
+
+
+.main1 {padding-top: 100px;
+padding-bottom: 100px;
+background-image: url(/img/ve2.png);}
+
+
+.contactotitulo{
+
+    font-family: "adega";
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+form {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-image: url(/img/ver.png);
+    @include mobile { border-radius: 0px;}
+  }
+  label {font-family: "adegaitalic";
+font-size: x-large;
+color: #ffffff;}
+
+
+
+  label, input {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  input[type="text"], input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"] {
+    padding: 10px 20px;
+   background-image: url(/img/ver.png);
+    color: white;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    font-family: "adega";
+   
+    font-size: larger;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    transform: scale(1.06);}
+  
+  #formStatus {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+  }
