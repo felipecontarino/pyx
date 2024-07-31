@@ -829,7 +829,7 @@
 .main1 {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-image: url(/img/ve2.png);
+  background-image: url(../img/ve2.png);
 }
 
 .contactotitulo {
@@ -844,7 +844,7 @@ form {
   margin: auto;
   padding: 20px;
   border-radius: 10px;
-  background-image: url(/img/ver.png);
+  background-image: url(../img/ver.png);
 }
 @media screen and (max-width: 610px) {
   form {
@@ -872,7 +872,7 @@ input[type=text], input[type=email] {
 
 input[type=submit] {
   padding: 10px 20px;
-  background-image: url(/img/ver.png);
+  background-image: url(../img/ver.png);
   color: white;
   border: none;
   width: 100%;
